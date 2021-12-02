@@ -465,5 +465,18 @@
 #       - CI / continous integration
 #       - CD / continous deployment
 #       - automation of pull request
-
-
+# Using Action + Azure:
+# got to: App Services -> Create new one and connect with git:
+#   movie with steps:    https://app.pluralsight.com/course-player?clipId=fb93df3e-cedd-48a2-a899-0e94bda55078
+#   new app: https://githubazureansible.azurewebsites.net/
+#   - after connecting this on Azure in Github/Action appear connection to Azure
+# --------------------------------------------------------------------
+# Create Qucik Django App: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment
+# pip3 install django
+# python3 -m django --version
+# mkdir django_app
+# cd django_app
+# django-admin startproject mytestsite
+# cd mytestsite
+# python3 manage.py runserver
+# --------------------------------------------------------------------
