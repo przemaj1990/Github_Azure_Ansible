@@ -479,4 +479,5 @@
 # django-admin startproject mytestsite
 # cd mytestsite
 # python3 manage.py runserver
+# pip3 freeze > requirements.txt
 # --------------------------------------------------------------------
