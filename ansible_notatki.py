@@ -461,6 +461,9 @@
 #       - Settings>Pages>choose branch and create
 #       - https://przemaj1990.github.io/Github_Azure_Ansible/ <- example of ready website
 #       - Page for client, wiki internal
-#       - 
+#   GitHub Actions - Automation Engine
+#       - CI / continous integration
+#       - CD / continous deployment
+#       - automation of pull request
 
 
