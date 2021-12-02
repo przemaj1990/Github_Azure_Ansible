@@ -447,6 +447,20 @@
 # git branch -M main
 # git push -u origin main
 # --------------------------------------------------------------------
-
+# git branch -M main <- rename branch
+# CODEOWNERS.txt <- define who have right to access your code
+# https://github.com/przemaj1990/Github_Azure_Ansible/settings/branches <- go there to setup branch protection rules.
+#   Github Issue - to deliver software (metadata about specific part of work like bug, use markdown to trace work) ex: https://github.com/przemaj1990/Github_Azure_Ansible/issues/2
+#       - milestones - to prioritize issues
+#       - label
+#   Github Project - to describe feature
+#       - you can use comment during makieng change like: 'Fixes #4' and this way you will collerate change with bug #4 
+#   Github kaban board - to show how work is done now,
+#   Github Backlog - list of work
+#   Github Pages - publi documentation
+#       - Settings>Pages>choose branch and create
+#       - https://przemaj1990.github.io/Github_Azure_Ansible/ <- example of ready website
+#       - Page for client, wiki internal
+#       - 
 
 
