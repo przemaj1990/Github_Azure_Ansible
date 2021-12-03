@@ -480,6 +480,7 @@
 # cd mytestsite
 # python3 manage.py runserver
 # pip3 freeze > requirements.txt
+# python3 manage.py startapp pages
 # --------------------------------------------------------------------
 # https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md <- how to setup secret ofr azure-Github
 # https://github.com/Azure-Samples/djangoapp/blob/master/.github/workflows/build_and_deploy.yaml <- example workflow
