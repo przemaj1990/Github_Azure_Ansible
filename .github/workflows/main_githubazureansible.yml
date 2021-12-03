@@ -78,7 +78,6 @@ jobs:
         with:
           app-name: 'GithubAzureAnsible'
           slot-name: 'Production'
-          creds: ${{ secrets.AZURE_SERVICE_PRINCIPAL }}
       
       # - name: 'Deploy to Azure Web App'
       #   uses: azure/webapps-deploy@v2
