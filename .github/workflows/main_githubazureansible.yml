@@ -62,9 +62,9 @@ jobs:
           path: .
       
       - name: Log in to Azure CLI
-        uses: azure/login@v1
+        uses: przemaj1990@gmail.com
         with:
-          creds: ${{ secrets.AZURE_SERVICE_PRINCIPAL }}
+          creds: Mugin1990
 
       - name: Disable static collection and set migration command on App Service
         uses: Azure/appservice-settings@v1
