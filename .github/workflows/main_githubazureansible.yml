@@ -72,10 +72,6 @@ jobs:
           app-name: 'GithubAzureAnsible'
           app-settings-json: '[{ "name": "DISABLE_COLLECTSTATIC", "value": "true" }, { "name": "POST_BUILD_COMMAND",  "value": "python manage.py makemigrations && python manage.py migrate" }, { "name": "SCM_DO_BUILD_DURING_DEPLOYMENT", "value": "true" }, { "name": "DJANGO_ENV", "value": "production"}]'
 
-      - name: Configure deployment and runtime settings on the webapp
-        run: |
-          az webapp config set --name GithubAzureAnsible --startup-file "gunicorn --bind=0.0.0.0 --timeout 600 app:app"
-      
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
