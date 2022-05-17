@@ -21,7 +21,7 @@ cryptography==3.4.7
 decorator==4.4.2
 distlib==0.3.1
 distro==1.6.0
-Django==3.1.2
+Django==3.1.14
 docker==5.0.3
 docutils==0.15.2
 enrich==1.2.6
