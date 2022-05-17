@@ -72,7 +72,7 @@ selenium==3.141.0
 selinux==0.2.1
 six==1.15.0
 soupsieve==2.2.1
-sqlparse==0.4.1
+sqlparse==0.4.2
 subprocess-tee==0.3.5
 tenacity==8.0.1
 text-unidecode==1.3
