@@ -16,7 +16,7 @@ click==8.0.3
 click-help-colors==0.9.1
 colorama==0.4.3
 commonmark==0.9.1
-cookiecutter==1.7.3
+cookiecutter==2.1.1
 cryptography==3.4.7
 decorator==4.4.2
 distlib==0.3.1
